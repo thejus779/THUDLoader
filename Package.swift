@@ -24,5 +24,6 @@ let package = Package(
         .testTarget(
             name: "THudLoaderTests",
             dependencies: ["THudLoader"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
